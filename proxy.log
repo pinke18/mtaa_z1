@@ -1,0 +1,1349 @@
+17:12:28:INFO:Sat, 26 Feb 2022 17:12:28 
+17:12:30:INFO:>>> REGISTER sip:192.168.0.14:5060 SIP/2.0
+17:12:30:INFO:From: Roland@192.168.0.14 - Contact: 192.168.0.14:62117
+17:12:30:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:12:31:INFO:>>> PUBLISH sip:Roland@192.168.0.14:5060 SIP/2.0
+17:12:31:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:12:39:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+17:12:39:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+17:12:39:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:12:39:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+17:12:39:INFO:From: Rolandmobil@192.168.0.13 - Contact: 192.168.0.11:34183
+17:12:39:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:12:41:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+17:12:41:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:12:41:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+17:12:41:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+17:12:41:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:12:51:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+17:12:51:INFO:destination Roland@192.168.0.14
+17:12:51:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+17:12:51:INFO:>>> SIP/2.0 100 Trying
+17:12:51:INFO:<<< SIP/2.0 100 Trying
+17:12:52:INFO:>>> SIP/2.0 180 Ringing
+17:12:52:INFO:<<< SIP/2.0 180 Ringing
+17:12:56:INFO:>>> SIP/2.0 200 Ok
+17:12:56:INFO:<<< SIP/2.0 200 Ok
+17:12:56:INFO:>>> ACK sip:Roland@192.168.0.14:62117;transport=udp SIP/2.0
+17:12:56:INFO:destination Roland@192.168.0.14
+17:12:56:INFO:<<< ACK sip:Roland@192.168.0.14:62117;transport=udp SIP/2.0
+17:13:01:INFO:>>> BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+17:13:01:INFO:destination Rolandmobil@192.168.0.14
+17:13:01:INFO:<<< BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+17:13:01:INFO:>>> SIP/2.0 200 Ok
+17:13:01:INFO:<<< SIP/2.0 200 Ok
+17:16:15:INFO:Sat, 26 Feb 2022 17:16:15 
+17:16:17:INFO:>>> REGISTER sip:192.168.0.14:5060 SIP/2.0
+17:16:17:INFO:From: Roland@192.168.0.14 - Contact: 192.168.0.14:49480
+17:16:17:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:16:18:INFO:>>> PUBLISH sip:Roland@192.168.0.14:5060 SIP/2.0
+17:16:18:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:16:29:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+17:16:29:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+17:16:29:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:16:29:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+17:16:29:INFO:From: Rolandmobil@192.168.0.13 - Contact: 192.168.0.11:34183
+17:16:29:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:16:31:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+17:16:31:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:16:31:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+17:16:31:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+17:16:31:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:16:36:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+17:16:36:INFO:destination Roland@192.168.0.14
+17:16:36:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+17:16:36:INFO:>>> SIP/2.0 100 Trying
+17:16:36:INFO:<<< SIP/2.0 100 Trying
+17:16:37:INFO:>>> SIP/2.0 180 Ringing
+17:16:37:INFO:<<< SIP/2.0 180 Ringing
+17:27:21:INFO:Sat, 26 Feb 2022 17:27:21 
+17:27:23:INFO:>>> REGISTER sip:192.168.0.14:5060 SIP/2.0
+17:27:23:INFO:From: Roland@192.168.0.14 - Contact: 192.168.0.14:58390
+17:27:23:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:27:24:INFO:>>> PUBLISH sip:Roland@192.168.0.14:5060 SIP/2.0
+17:27:24:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:27:27:INFO:>>> CANCEL sip:Roland@192.168.0.14 SIP/2.0
+17:27:27:INFO:<<< SIP/2.0 400 Bad Request
+17:27:33:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+17:27:33:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+17:27:33:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:27:33:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+17:27:33:INFO:From: Rolandmobil@192.168.0.13 - Contact: 192.168.0.11:34183
+17:27:33:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:27:35:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+17:27:35:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:27:35:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+17:27:35:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+17:27:35:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:27:41:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+17:27:41:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+17:27:41:INFO:destination Roland@192.168.0.14
+17:27:41:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+17:27:41:INFO:>>> SIP/2.0 100 Trying
+17:27:41:INFO:<<< SIP/2.0 100 Trying
+17:27:42:INFO:>>> SIP/2.0 180 Ringing
+17:27:42:INFO:<<< SIP/2.0 180 Ringing
+17:27:46:INFO:>>> SIP/2.0 200 Ok
+17:27:46:INFO:<<< SIP/2.0 200 Ok
+17:27:46:INFO:>>> ACK sip:Roland@192.168.0.14:58390;transport=udp SIP/2.0
+17:27:46:INFO:Call started
+17:27:46:INFO:destination Roland@192.168.0.14
+17:27:46:INFO:<<< ACK sip:Roland@192.168.0.14:58390;transport=udp SIP/2.0
+17:27:54:INFO:>>> BYE sip:Roland@192.168.0.14:58390;transport=udp SIP/2.0
+17:27:54:INFO:Call endend - lasted:8
+17:27:54:INFO:destination Roland@192.168.0.14
+17:27:54:INFO:<<< BYE sip:Roland@192.168.0.14:58390;transport=udp SIP/2.0
+17:27:54:INFO:>>> SIP/2.0 200 Ok
+17:27:54:INFO:<<< SIP/2.0 200 Ok
+17:56:52:INFO:Sat, 26 Feb 2022 17:56:52 
+17:56:56:INFO:>>> REGISTER sip:192.168.0.14:5060 SIP/2.0
+17:56:56:INFO:From: Roland@192.168.0.14 - Contact: 192.168.0.14:56707
+17:56:56:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:56:56:INFO:>>> PUBLISH sip:Roland@192.168.0.14:5060 SIP/2.0
+17:56:56:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:57:03:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+17:57:03:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+17:57:03:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:57:03:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+17:57:03:INFO:From: Rolandmobil@192.168.0.13 - Contact: 192.168.0.11:34183
+17:57:03:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:57:06:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+17:57:06:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:57:06:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+17:57:06:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+17:57:06:INFO:<<< SIP/2.0 200 0K:Confirmed
+17:57:19:INFO:>>> INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+17:57:19:INFO:Roland@192.168.0.14 is calling Rolandmobil@192.168.0.14
+17:57:19:INFO:destination Rolandmobil@192.168.0.14
+17:57:19:INFO:<<< INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+17:57:19:INFO:>>> SIP/2.0 100 Trying
+17:57:19:INFO:<<< SIP/2.0 100 Trying
+17:57:19:INFO:>>> SIP/2.0 180 Ringing
+17:57:19:INFO:<<< SIP/2.0 180 Ringing
+17:57:22:INFO:>>> SIP/2.0 200 Ok
+17:57:22:INFO:<<< SIP/2.0 200 Ok
+17:57:23:INFO:>>> SIP/2.0 200 Ok
+17:57:23:INFO:<<< SIP/2.0 200 Ok
+17:57:23:INFO:>>> ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+17:57:23:INFO:Call started
+17:57:23:INFO:destination Rolandmobil@192.168.0.14
+17:57:23:INFO:<<< ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+17:57:23:INFO:>>> ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+17:57:23:INFO:Call started
+17:57:23:INFO:destination Rolandmobil@192.168.0.14
+17:57:23:INFO:<<< ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+17:57:33:INFO:>>> BYE sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+17:57:33:INFO:Call endend - lasted: 10sec
+17:57:33:INFO:destination Roland@192.168.0.14
+17:57:33:INFO:<<< BYE sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+17:57:33:INFO:>>> SIP/2.0 200 Ok
+17:57:33:INFO:<<< SIP/2.0 200 Ok
+17:59:06:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+17:59:06:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+17:59:06:INFO:destination Roland@192.168.0.14
+17:59:06:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+17:59:06:INFO:>>> SIP/2.0 100 Trying
+17:59:06:INFO:<<< SIP/2.0 100 Trying
+17:59:07:INFO:>>> SIP/2.0 180 Ringing
+17:59:07:INFO:<<< SIP/2.0 180 Ringing
+17:59:09:INFO:>>> SIP/2.0 200 Ok
+17:59:09:INFO:<<< SIP/2.0 200 Ok
+17:59:09:INFO:>>> ACK sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+17:59:09:INFO:Call started
+17:59:09:INFO:destination Roland@192.168.0.14
+17:59:09:INFO:<<< ACK sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+17:59:15:INFO:>>> BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+17:59:15:INFO:Call endend - lasted: 6sec
+17:59:15:INFO:destination Rolandmobil@192.168.0.14
+17:59:15:INFO:<<< BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+17:59:15:INFO:>>> SIP/2.0 200 Ok
+17:59:15:INFO:<<< SIP/2.0 200 Ok
+18:00:12:INFO:>>> INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+18:00:12:INFO:Roland@192.168.0.14 is calling Rolandmobil@192.168.0.14
+18:00:12:INFO:destination Rolandmobil@192.168.0.14
+18:00:12:INFO:<<< INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+18:00:12:INFO:>>> SIP/2.0 100 Trying
+18:00:12:INFO:<<< SIP/2.0 100 Trying
+18:00:12:INFO:>>> SIP/2.0 180 Ringing
+18:00:12:INFO:<<< SIP/2.0 180 Ringing
+18:00:16:INFO:>>> SIP/2.0 603 Decline
+18:00:16:INFO:<<< SIP/2.0 603 Decline
+18:00:16:INFO:>>> ACK sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+18:00:16:INFO:Call started
+18:00:16:INFO:destination Rolandmobil@192.168.0.14
+18:00:16:INFO:<<< ACK sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+18:04:12:INFO:Sat, 26 Feb 2022 18:04:12 
+18:04:14:INFO:>>> REGISTER sip:192.168.0.14:5060 SIP/2.0
+18:04:14:INFO:From: Roland@192.168.0.14 - Contact: 192.168.0.14:56707
+18:04:14:INFO:<<< SIP/2.0 200 0K:Confirmed
+18:04:22:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+18:04:22:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+18:04:22:INFO:<<< SIP/2.0 200 0K:Confirmed
+18:04:22:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+18:04:22:INFO:From: Rolandmobil@192.168.0.13 - Contact: 192.168.0.11:34183
+18:04:22:INFO:<<< SIP/2.0 200 0K:Confirmed
+18:04:25:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+18:04:25:INFO:<<< SIP/2.0 200 0K:Confirmed
+18:04:25:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+18:04:25:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+18:04:25:INFO:<<< SIP/2.0 200 0K:Confirmed
+18:04:31:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+18:04:31:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+18:04:31:INFO:destination Roland@192.168.0.14
+18:04:31:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+18:04:31:INFO:>>> SIP/2.0 100 Trying
+18:04:31:INFO:<<< SIP/2.0 100 Trying
+18:04:31:INFO:>>> SIP/2.0 180 Ringing
+18:04:31:INFO:<<< SIP/2.0 180 Ringing
+18:04:35:INFO:>>> SIP/2.0 603 Decline
+18:04:35:INFO:<<< SIP/2.0 603 Decline
+18:04:35:INFO:>>> ACK sip:Roland@192.168.0.14 SIP/2.0
+18:04:35:INFO:destination Roland@192.168.0.14
+18:04:35:INFO:<<< ACK sip:Roland@192.168.0.14 SIP/2.0
+18:04:35:INFO:Call started
+18:05:56:INFO:>>> PUBLISH sip:Roland@192.168.0.14:5060 SIP/2.0
+18:05:56:INFO:<<< SIP/2.0 200 0K:Confirmed
+18:06:00:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+18:06:00:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+18:06:00:INFO:destination Roland@192.168.0.14
+18:06:00:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+18:06:00:INFO:>>> SIP/2.0 100 Trying
+18:06:00:INFO:<<< SIP/2.0 100 Trying
+18:06:01:INFO:>>> SIP/2.0 180 Ringing
+18:06:01:INFO:<<< SIP/2.0 180 Ringing
+18:06:03:INFO:>>> SIP/2.0 200 Ok
+18:06:03:INFO:<<< SIP/2.0 200 Ok
+18:06:03:INFO:>>> ACK sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:06:03:INFO:destination Roland@192.168.0.14
+18:06:03:INFO:<<< ACK sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:06:03:INFO:Call started
+18:06:09:INFO:>>> BYE sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:06:09:INFO:destination Roland@192.168.0.14
+18:06:09:INFO:<<< BYE sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:06:09:INFO:Call ended - lasted: 6sec
+
+18:06:09:INFO:>>> SIP/2.0 200 Ok
+18:06:09:INFO:<<< SIP/2.0 200 Ok
+18:12:17:INFO:Sat, 26 Feb 2022 18:12:17 
+18:12:23:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+18:12:23:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+18:12:23:INFO:<<< SIP/2.0 200 0K:Confirmed
+18:12:23:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+18:12:23:INFO:From: Rolandmobil@192.168.0.13 - Contact: 192.168.0.11:34183
+18:12:23:INFO:<<< SIP/2.0 200 0K:Confirmed
+18:12:26:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+18:12:26:INFO:<<< SIP/2.0 200 0K:Confirmed
+18:12:26:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+18:12:26:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+18:12:26:INFO:<<< SIP/2.0 200 0K:Confirmed
+18:12:34:INFO:>>> REGISTER sip:192.168.0.14:5060 SIP/2.0
+18:12:34:INFO:From: Roland@192.168.0.14 - Contact: 192.168.0.14:56707
+18:12:34:INFO:<<< SIP/2.0 200 0K:Confirmed
+18:12:43:INFO:>>> INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+18:12:43:INFO:Roland@192.168.0.14 is calling Rolandmobil@192.168.0.14
+18:12:43:INFO:destination Rolandmobil@192.168.0.14
+18:12:43:INFO:<<< INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+18:12:43:INFO:>>> SIP/2.0 100 Trying
+18:12:43:INFO:<<< SIP/2.0 100 Trying
+18:12:44:INFO:>>> SIP/2.0 180 Ringing
+18:12:44:INFO:<<< SIP/2.0 180 Ringing
+18:12:45:INFO:>>> SIP/2.0 200 Ok
+18:12:45:INFO:<<< SIP/2.0 200 Ok
+18:12:45:INFO:>>> SIP/2.0 200 Ok
+18:12:45:INFO:<<< SIP/2.0 200 Ok
+18:12:46:INFO:>>> ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+18:12:46:INFO:destination Rolandmobil@192.168.0.14
+18:12:46:INFO:<<< ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+18:12:46:INFO:Calling
+18:12:46:INFO:>>> ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+18:12:46:INFO:destination Rolandmobil@192.168.0.14
+18:12:46:INFO:<<< ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+18:12:46:INFO:Calling
+18:12:59:INFO:>>> INVITE sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:12:59:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+18:12:59:INFO:destination Roland@192.168.0.14
+18:12:59:INFO:<<< INVITE sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:12:59:INFO:>>> SIP/2.0 100 Trying
+18:12:59:INFO:<<< SIP/2.0 100 Trying
+18:13:01:INFO:>>> SIP/2.0 200 Ok
+18:13:01:INFO:<<< SIP/2.0 200 Ok
+18:13:02:INFO:>>> ACK sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:13:02:INFO:destination Roland@192.168.0.14
+18:13:02:INFO:<<< ACK sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:13:02:INFO:Calling
+18:13:28:INFO:>>> BYE sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:13:28:INFO:destination Roland@192.168.0.14
+18:13:28:INFO:<<< BYE sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:13:28:INFO:Call lasted: 26sec
+
+18:13:28:INFO:>>> SIP/2.0 200 Ok
+18:13:28:INFO:<<< SIP/2.0 200 Ok
+18:14:56:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+18:14:56:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+18:14:56:INFO:destination Roland@192.168.0.14
+18:14:56:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+18:14:56:INFO:>>> SIP/2.0 100 Trying
+18:14:56:INFO:<<< SIP/2.0 100 Trying
+18:14:56:INFO:>>> SIP/2.0 180 Ringing
+18:14:56:INFO:<<< SIP/2.0 180 Ringing
+18:14:57:INFO:>>> PUBLISH sip:Roland@192.168.0.14:5060 SIP/2.0
+18:14:57:INFO:<<< SIP/2.0 200 0K:Confirmed
+18:14:58:INFO:>>> SIP/2.0 200 Ok
+18:14:58:INFO:<<< SIP/2.0 200 Ok
+18:14:59:INFO:>>> ACK sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:14:59:INFO:destination Roland@192.168.0.14
+18:14:59:INFO:<<< ACK sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:14:59:INFO:Calling
+18:15:08:INFO:>>> BYE sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:15:08:INFO:destination Roland@192.168.0.14
+18:15:08:INFO:<<< BYE sip:Roland@192.168.0.14:56707;transport=udp SIP/2.0
+18:15:08:INFO:Call lasted: 9sec
+
+18:15:08:INFO:>>> SIP/2.0 200 Ok
+18:15:08:INFO:<<< SIP/2.0 200 Ok
+10:44:03:INFO:Sun, 27 Feb 2022 10:44:03 
+10:44:11:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+10:44:11:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+10:44:11:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:44:11:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+10:44:11:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+10:44:11:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:44:17:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+10:44:17:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:44:17:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+10:44:17:INFO:From: Rolandmobil@192.168.0.13 - Contact: 192.168.0.11:34183
+10:44:17:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:44:20:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+10:44:20:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:44:20:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+10:44:20:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+10:44:20:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:44:24:INFO:>>> REGISTER sip:192.168.0.14:5060 SIP/2.0
+10:44:24:INFO:From: Roland@192.168.0.14 - Contact: 192.168.0.14:51521
+10:44:24:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:44:26:INFO:>>> PUBLISH sip:Roland@192.168.0.14:5060 SIP/2.0
+10:44:26:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:44:37:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:44:37:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+10:44:37:INFO:destination Roland@192.168.0.14
+10:44:37:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:44:37:INFO:>>> SIP/2.0 100 Trying
+10:44:37:INFO:<<< SIP/2.0 100 Trying
+10:44:38:INFO:>>> SIP/2.0 180 Ringing
+10:44:38:INFO:<<< SIP/2.0 180 Ringing
+10:44:40:INFO:>>> SIP/2.0 200 Ok
+10:44:40:INFO:<<< SIP/2.0 200 Ok
+10:44:41:INFO:>>> ACK sip:Roland@192.168.0.14:51521;transport=udp SIP/2.0
+10:44:41:INFO:destination Roland@192.168.0.14
+10:44:41:INFO:<<< ACK sip:Roland@192.168.0.14:51521;transport=udp SIP/2.0
+10:44:41:INFO:Calling
+10:44:47:INFO:>>> BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:44:47:INFO:destination Rolandmobil@192.168.0.14
+10:44:47:INFO:<<< BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:44:47:INFO:Call lasted: 6sec
+
+10:44:47:INFO:>>> SIP/2.0 200 Ok
+10:44:47:INFO:<<< SIP/2.0 200 Ok
+10:45:52:INFO:Sun, 27 Feb 2022 10:45:52 
+10:45:55:INFO:>>> REGISTER sip:192.168.0.14:5060 SIP/2.0
+10:45:55:INFO:From: Roland@192.168.0.14 - Contact: 192.168.0.14:51521
+10:45:55:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:46:04:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:46:04:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+10:46:04:INFO:<<< SIP/2.0 400 Bad Request
+10:46:04:INFO:>>> ACK sip:Roland@192.168.0.14 SIP/2.0
+10:46:04:INFO:destination Roland@192.168.0.14
+10:46:04:INFO:<<< ACK sip:Roland@192.168.0.14 SIP/2.0
+10:46:04:INFO:Calling
+10:46:04:INFO:>>> SIP/2.0 405 Method not allowed
+10:46:19:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+10:46:19:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+10:46:19:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:46:19:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+10:46:19:INFO:From: Rolandmobil@192.168.0.13 - Contact: 192.168.0.11:34183
+10:46:19:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:46:23:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+10:46:23:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:46:23:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+10:46:23:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+10:46:23:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:46:26:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:46:26:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+10:46:26:INFO:destination Roland@192.168.0.14
+10:46:26:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:46:26:INFO:>>> SIP/2.0 100 Trying
+10:46:26:INFO:<<< SIP/2.0 100 Trying
+10:46:26:INFO:>>> SIP/2.0 180 Ringing
+10:46:26:INFO:<<< SIP/2.0 180 Ringing
+10:46:28:INFO:>>> SIP/2.0 200 Ok
+10:46:28:INFO:<<< SIP/2.0 200 Ok
+10:46:29:INFO:>>> ACK sip:Roland@192.168.0.14:51521;transport=udp SIP/2.0
+10:46:29:INFO:destination Roland@192.168.0.14
+10:46:29:INFO:<<< ACK sip:Roland@192.168.0.14:51521;transport=udp SIP/2.0
+10:46:29:INFO:Calling
+10:46:33:INFO:>>> BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:46:33:INFO:destination Rolandmobil@192.168.0.14
+10:46:33:INFO:<<< BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:46:33:INFO:Call lasted: 4sec
+
+10:46:33:INFO:>>> SIP/2.0 200 Ok
+10:46:33:INFO:<<< SIP/2.0 200 Ok
+10:47:07:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:47:07:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+10:47:07:INFO:destination Roland@192.168.0.14
+10:47:07:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:47:07:INFO:>>> SIP/2.0 100 Trying
+10:47:07:INFO:<<< SIP/2.0 100 Trying
+10:47:07:INFO:>>> SIP/2.0 180 Ringing
+10:47:07:INFO:<<< SIP/2.0 180 Ringing
+10:47:09:INFO:>>> SIP/2.0 200 Ok
+10:47:09:INFO:<<< SIP/2.0 200 Ok
+10:47:09:INFO:>>> ACK sip:Roland@192.168.0.14:51521;transport=udp SIP/2.0
+10:47:09:INFO:destination Roland@192.168.0.14
+10:47:09:INFO:<<< ACK sip:Roland@192.168.0.14:51521;transport=udp SIP/2.0
+10:47:09:INFO:Calling
+10:47:12:INFO:>>> BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:47:12:INFO:destination Rolandmobil@192.168.0.14
+10:47:12:INFO:<<< BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:47:12:INFO:Call lasted: 3sec
+
+10:47:12:INFO:>>> SIP/2.0 200 Ok
+10:47:12:INFO:<<< SIP/2.0 200 Ok
+10:47:16:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:47:16:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+10:47:16:INFO:destination Roland@192.168.0.14
+10:47:16:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:47:16:INFO:>>> SIP/2.0 100 Trying
+10:47:16:INFO:<<< SIP/2.0 100 Trying
+10:47:16:INFO:>>> SIP/2.0 180 Ringing
+10:47:16:INFO:<<< SIP/2.0 180 Ringing
+10:47:18:INFO:>>> SIP/2.0 603 Decline
+10:47:18:INFO:<<< SIP/2.0 603 Decline
+10:47:18:INFO:>>> ACK sip:Roland@192.168.0.14 SIP/2.0
+10:47:18:INFO:destination Roland@192.168.0.14
+10:47:18:INFO:<<< ACK sip:Roland@192.168.0.14 SIP/2.0
+10:47:18:INFO:Calling
+10:50:28:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:50:28:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+10:50:28:INFO:destination Roland@192.168.0.14
+10:50:28:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:50:28:INFO:>>> SIP/2.0 100 Trying
+10:50:28:INFO:<<< SIP/2.0 100 Trying
+10:50:28:INFO:>>> SIP/2.0 180 Ringing
+10:50:28:INFO:<<< SIP/2.0 180 Ringing
+10:50:30:INFO:>>> CANCEL sip:Roland@192.168.0.14 SIP/2.0
+10:50:30:INFO:destination Roland@192.168.0.14
+10:50:30:INFO:<<< CANCEL sip:Roland@192.168.0.14 SIP/2.0
+10:50:30:INFO:Call lasted: 192sec
+
+10:50:30:INFO:>>> SIP/2.0 200 Ok
+10:50:30:INFO:<<< SIP/2.0 200 Ok
+10:50:30:INFO:>>> SIP/2.0 487 Request terminated
+10:50:30:INFO:<<< SIP/2.0 487 Request terminated
+10:50:30:INFO:>>> ACK sip:Roland@192.168.0.14 SIP/2.0
+10:50:30:INFO:destination Roland@192.168.0.14
+10:50:30:INFO:<<< ACK sip:Roland@192.168.0.14 SIP/2.0
+10:50:30:INFO:Calling
+10:50:45:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:50:45:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+10:50:45:INFO:destination Roland@192.168.0.14
+10:50:45:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:50:45:INFO:>>> SIP/2.0 100 Trying
+10:50:45:INFO:<<< SIP/2.0 100 Trying
+10:50:45:INFO:>>> SIP/2.0 180 Ringing
+10:50:45:INFO:<<< SIP/2.0 180 Ringing
+10:50:47:INFO:>>> SIP/2.0 603 Decline
+10:50:47:INFO:<<< SIP/2.0 603 Decline
+10:50:47:INFO:>>> ACK sip:Roland@192.168.0.14 SIP/2.0
+10:50:47:INFO:destination Roland@192.168.0.14
+10:50:47:INFO:<<< ACK sip:Roland@192.168.0.14 SIP/2.0
+10:50:47:INFO:Calling
+10:50:58:INFO:>>> INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:50:58:INFO:Roland@192.168.0.14 is calling Rolandmobil@192.168.0.14
+10:50:58:INFO:destination Rolandmobil@192.168.0.14
+10:50:58:INFO:<<< INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:50:58:INFO:>>> SIP/2.0 100 Trying
+10:50:58:INFO:<<< SIP/2.0 100 Trying
+10:50:59:INFO:>>> SIP/2.0 180 Ringing
+10:50:59:INFO:<<< SIP/2.0 180 Ringing
+10:51:01:INFO:>>> SIP/2.0 603 Decline
+10:51:01:INFO:<<< SIP/2.0 603 Decline
+10:51:01:INFO:>>> ACK sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:51:01:INFO:destination Rolandmobil@192.168.0.14
+10:51:01:INFO:<<< ACK sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:51:01:INFO:Calling
+10:51:08:INFO:>>> INVITE sip:Roland@192.168.0.14:5060 SIP/2.0
+10:51:08:INFO:Roland@192.168.0.14 is calling Roland@192.168.0.14
+10:51:08:INFO:destination Roland@192.168.0.14
+10:51:08:INFO:<<< INVITE sip:Roland@192.168.0.14:5060 SIP/2.0
+10:51:09:INFO:>>> SIP/2.0 100 Trying
+10:51:09:INFO:<<< SIP/2.0 100 Trying
+10:51:09:INFO:>>> SIP/2.0 180 Ringing
+10:51:09:INFO:<<< SIP/2.0 180 Ringing
+10:51:13:INFO:>>> SIP/2.0 603 Decline
+10:51:13:INFO:<<< SIP/2.0 603 Decline
+10:51:14:INFO:>>> ACK sip:Roland@192.168.0.14:5060 SIP/2.0
+10:51:14:INFO:destination Roland@192.168.0.14
+10:51:14:INFO:<<< ACK sip:Roland@192.168.0.14:5060 SIP/2.0
+10:51:14:INFO:Calling
+10:51:26:INFO:>>> INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:51:26:INFO:Roland@192.168.0.14 is calling Rolandmobil@192.168.0.14
+10:51:26:INFO:destination Rolandmobil@192.168.0.14
+10:51:26:INFO:<<< INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:51:26:INFO:>>> SIP/2.0 100 Trying
+10:51:26:INFO:<<< SIP/2.0 100 Trying
+10:51:26:INFO:>>> SIP/2.0 180 Ringing
+10:51:26:INFO:<<< SIP/2.0 180 Ringing
+10:51:28:INFO:>>> SIP/2.0 200 Ok
+10:51:28:INFO:<<< SIP/2.0 200 Ok
+10:51:28:INFO:>>> SIP/2.0 200 Ok
+10:51:28:INFO:<<< SIP/2.0 200 Ok
+10:51:28:INFO:>>> ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:51:28:INFO:destination Rolandmobil@192.168.0.14
+10:51:28:INFO:<<< ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:51:28:INFO:Calling
+10:51:29:INFO:>>> ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:51:29:INFO:destination Rolandmobil@192.168.0.14
+10:51:29:INFO:<<< ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:51:29:INFO:Calling
+10:51:45:INFO:>>> BYE sip:Roland@192.168.0.14:51521;transport=udp SIP/2.0
+10:51:45:INFO:destination Roland@192.168.0.14
+10:51:45:INFO:<<< BYE sip:Roland@192.168.0.14:51521;transport=udp SIP/2.0
+10:51:45:INFO:Call lasted: 16sec
+
+10:51:45:INFO:>>> SIP/2.0 200 Ok
+10:51:45:INFO:<<< SIP/2.0 200 Ok
+10:55:02:INFO:Sun, 27 Feb 2022 10:55:02 
+10:55:48:INFO:Sun, 27 Feb 2022 10:55:48 
+10:55:52:INFO:>>> REGISTER sip:192.168.0.14:5060 SIP/2.0
+10:55:52:INFO:From: Roland@192.168.0.14 - Contact: 192.168.0.14:57781
+10:55:52:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:55:53:INFO:>>> PUBLISH sip:Roland@192.168.0.14:5060 SIP/2.0
+10:55:53:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:55:59:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+10:55:59:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+10:55:59:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:55:59:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+10:55:59:INFO:From: Rolandmobil@192.168.0.13 - Contact: 192.168.0.11:34183
+10:55:59:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:56:02:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+10:56:02:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:56:02:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+10:56:02:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+10:56:02:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:56:10:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:56:10:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+10:56:10:INFO:destination Roland@192.168.0.14
+10:56:10:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:56:10:INFO:>>> SIP/2.0 100 Trying
+10:56:10:INFO:<<< SIP/2.0 100 Trying
+10:56:11:INFO:>>> SIP/2.0 180 Ringing
+10:56:11:INFO:<<< SIP/2.0 180 Ringing
+10:56:13:INFO:>>> SIP/2.0 200 Ok
+10:56:13:INFO:<<< SIP/2.0 200 Ok
+10:56:13:INFO:>>> ACK sip:Roland@192.168.0.14:57781;transport=udp SIP/2.0
+10:56:13:INFO:destination Roland@192.168.0.14
+10:56:13:INFO:<<< ACK sip:Roland@192.168.0.14:57781;transport=udp SIP/2.0
+10:56:13:INFO:Call started
+10:56:24:INFO:>>> BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:56:24:INFO:destination Rolandmobil@192.168.0.14
+10:56:24:INFO:<<< BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:56:24:INFO:Call lasted: 11sec
+
+10:56:24:INFO:>>> SIP/2.0 200 Ok
+10:56:24:INFO:<<< SIP/2.0 200 Ok
+10:56:33:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:56:33:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+10:56:33:INFO:destination Roland@192.168.0.14
+10:56:33:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:56:33:INFO:>>> SIP/2.0 100 Trying
+10:56:33:INFO:<<< SIP/2.0 100 Trying
+10:56:33:INFO:>>> SIP/2.0 180 Ringing
+10:56:33:INFO:<<< SIP/2.0 180 Ringing
+10:56:36:INFO:>>> SIP/2.0 603 Decline
+10:56:36:INFO:<<< SIP/2.0 603 Decline
+10:56:36:INFO:>>> ACK sip:Roland@192.168.0.14 SIP/2.0
+10:56:36:INFO:destination Roland@192.168.0.14
+10:56:36:INFO:<<< ACK sip:Roland@192.168.0.14 SIP/2.0
+10:57:47:INFO:>>> INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:57:47:INFO:Roland@192.168.0.14 is calling Rolandmobil@192.168.0.14
+10:57:47:INFO:destination Rolandmobil@192.168.0.14
+10:57:47:INFO:<<< INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:57:47:INFO:>>> SIP/2.0 100 Trying
+10:57:47:INFO:<<< SIP/2.0 100 Trying
+10:57:47:INFO:>>> SIP/2.0 180 Ringing
+10:57:47:INFO:<<< SIP/2.0 180 Ringing
+10:57:49:INFO:>>> SIP/2.0 200 Ok
+10:57:49:INFO:<<< SIP/2.0 200 Ok
+10:57:49:INFO:>>> ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:57:49:INFO:destination Rolandmobil@192.168.0.14
+10:57:49:INFO:<<< ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:57:49:INFO:Call started
+10:58:09:INFO:>>> BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:58:09:INFO:destination Rolandmobil@192.168.0.14
+10:58:09:INFO:<<< BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+10:58:09:INFO:Call lasted: 20sec
+
+10:58:09:INFO:>>> SIP/2.0 200 Ok
+10:58:09:INFO:<<< SIP/2.0 200 Ok
+10:58:24:INFO:>>> INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:58:24:INFO:Roland@192.168.0.14 is calling Rolandmobil@192.168.0.14
+10:58:24:INFO:destination Rolandmobil@192.168.0.14
+10:58:24:INFO:<<< INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:58:24:INFO:>>> SIP/2.0 100 Trying
+10:58:24:INFO:<<< SIP/2.0 100 Trying
+10:58:24:INFO:>>> SIP/2.0 180 Ringing
+10:58:24:INFO:<<< SIP/2.0 180 Ringing
+10:58:26:INFO:>>> SIP/2.0 603 Decline
+10:58:26:INFO:<<< SIP/2.0 603 Decline
+10:58:26:INFO:>>> ACK sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:58:26:INFO:destination Rolandmobil@192.168.0.14
+10:58:26:INFO:<<< ACK sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:58:38:INFO:>>> INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:58:38:INFO:Roland@192.168.0.14 is calling Rolandmobil@192.168.0.14
+10:58:38:INFO:destination Rolandmobil@192.168.0.14
+10:58:38:INFO:<<< INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:58:38:INFO:>>> SIP/2.0 100 Trying
+10:58:38:INFO:<<< SIP/2.0 100 Trying
+10:58:39:INFO:>>> SIP/2.0 180 Ringing
+10:58:39:INFO:<<< SIP/2.0 180 Ringing
+10:58:39:INFO:>>> CANCEL sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:58:39:INFO:destination Rolandmobil@192.168.0.14
+10:58:39:INFO:<<< CANCEL sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:58:39:INFO:Call lasted: 50sec
+
+10:58:40:INFO:>>> SIP/2.0 200 Ok
+10:58:40:INFO:<<< SIP/2.0 200 Ok
+10:58:40:INFO:>>> SIP/2.0 487 Request terminated
+10:58:40:INFO:<<< SIP/2.0 487 Request terminated
+10:58:40:INFO:>>> ACK sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:58:40:INFO:destination Rolandmobil@192.168.0.14
+10:58:40:INFO:<<< ACK sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+10:59:28:INFO:Sun, 27 Feb 2022 10:59:28 
+10:59:32:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:59:32:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+10:59:32:INFO:<<< SIP/2.0 400 Bad Request
+10:59:32:INFO:>>> ACK sip:Roland@192.168.0.14 SIP/2.0
+10:59:32:INFO:destination Roland@192.168.0.14
+10:59:37:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+10:59:37:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+10:59:37:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:59:37:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+10:59:37:INFO:From: Rolandmobil@192.168.0.13 - Contact: 192.168.0.11:34183
+10:59:37:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:59:40:INFO:>>> REGISTER sip:192.168.0.13 SIP/2.0
+10:59:40:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:59:40:INFO:>>> REGISTER sip:192.168.0.14 SIP/2.0
+10:59:40:INFO:From: Rolandmobil@192.168.0.14 - Contact: 192.168.0.11:34183
+10:59:40:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:59:42:INFO:>>> REGISTER sip:192.168.0.14:5060 SIP/2.0
+10:59:42:INFO:From: Roland@192.168.0.14 - Contact: 192.168.0.14:57781
+10:59:42:INFO:<<< SIP/2.0 200 0K:Confirmed
+10:59:50:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:59:50:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+10:59:50:INFO:destination Roland@192.168.0.14
+10:59:50:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+10:59:50:INFO:>>> SIP/2.0 100 Trying
+10:59:50:INFO:<<< SIP/2.0 100 Trying
+10:59:50:INFO:>>> SIP/2.0 180 Ringing
+10:59:50:INFO:<<< SIP/2.0 180 Ringing
+10:59:53:INFO:>>> CANCEL sip:Roland@192.168.0.14 SIP/2.0
+10:59:53:INFO:destination Roland@192.168.0.14
+10:59:53:INFO:<<< CANCEL sip:Roland@192.168.0.14 SIP/2.0
+10:59:53:INFO:>>> SIP/2.0 200 Ok
+10:59:53:INFO:<<< SIP/2.0 200 Ok
+10:59:53:INFO:>>> SIP/2.0 487 Request terminated
+10:59:53:INFO:<<< SIP/2.0 487 Request terminated
+10:59:53:INFO:>>> ACK sip:Roland@192.168.0.14 SIP/2.0
+10:59:53:INFO:destination Roland@192.168.0.14
+10:59:53:INFO:<<< ACK sip:Roland@192.168.0.14 SIP/2.0
+11:00:25:INFO:>>> INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+11:00:25:INFO:Roland@192.168.0.14 is calling Rolandmobil@192.168.0.14
+11:00:25:INFO:destination Rolandmobil@192.168.0.14
+11:00:25:INFO:<<< INVITE sip:Rolandmobil@192.168.0.14:5060 SIP/2.0
+11:00:25:INFO:>>> SIP/2.0 100 Trying
+11:00:25:INFO:<<< SIP/2.0 100 Trying
+11:00:25:INFO:>>> SIP/2.0 180 Ringing
+11:00:25:INFO:<<< SIP/2.0 180 Ringing
+11:00:27:INFO:>>> SIP/2.0 200 Ok
+11:00:27:INFO:<<< SIP/2.0 200 Ok
+11:00:27:INFO:>>> SIP/2.0 200 Ok
+11:00:27:INFO:<<< SIP/2.0 200 Ok
+11:00:27:INFO:>>> ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+11:00:27:INFO:destination Rolandmobil@192.168.0.14
+11:00:27:INFO:<<< ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+11:00:27:INFO:Call started
+11:00:27:INFO:>>> ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+11:00:27:INFO:destination Rolandmobil@192.168.0.14
+11:00:27:INFO:<<< ACK sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+11:00:27:INFO:Call started
+11:00:35:INFO:>>> BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+11:00:35:INFO:Call lasted: 8sec
+
+11:00:35:INFO:destination Rolandmobil@192.168.0.14
+11:00:35:INFO:<<< BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+11:00:35:INFO:>>> SIP/2.0 200 Ok
+11:00:35:INFO:<<< SIP/2.0 200 Ok
+11:01:02:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+11:01:02:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+11:01:02:INFO:destination Roland@192.168.0.14
+11:01:02:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+11:01:02:INFO:>>> SIP/2.0 100 Trying
+11:01:02:INFO:<<< SIP/2.0 100 Trying
+11:01:03:INFO:>>> SIP/2.0 180 Ringing
+11:01:03:INFO:<<< SIP/2.0 180 Ringing
+11:01:06:INFO:>>> SIP/2.0 603 Decline
+11:01:06:INFO:<<< SIP/2.0 603 Decline
+11:01:06:INFO:>>> ACK sip:Roland@192.168.0.14 SIP/2.0
+11:01:06:INFO:destination Roland@192.168.0.14
+11:01:06:INFO:<<< ACK sip:Roland@192.168.0.14 SIP/2.0
+11:01:11:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+11:01:11:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+11:01:11:INFO:destination Roland@192.168.0.14
+11:01:11:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+11:01:11:INFO:>>> SIP/2.0 100 Trying
+11:01:11:INFO:<<< SIP/2.0 100 Trying
+11:01:12:INFO:>>> SIP/2.0 180 Ringing
+11:01:12:INFO:<<< SIP/2.0 180 Ringing
+11:01:13:INFO:>>> SIP/2.0 200 Ok
+11:01:13:INFO:<<< SIP/2.0 200 Ok
+11:01:13:INFO:>>> ACK sip:Roland@192.168.0.14:57781;transport=udp SIP/2.0
+11:01:13:INFO:destination Roland@192.168.0.14
+11:01:13:INFO:<<< ACK sip:Roland@192.168.0.14:57781;transport=udp SIP/2.0
+11:01:13:INFO:Call started
+11:01:19:INFO:>>> BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+11:01:19:INFO:Call lasted: 6sec
+
+11:01:19:INFO:destination Rolandmobil@192.168.0.14
+11:01:19:INFO:<<< BYE sip:Rolandmobil@192.168.0.11:34183;transport=udp SIP/2.0
+11:01:19:INFO:>>> SIP/2.0 200 Ok
+11:01:19:INFO:<<< SIP/2.0 200 Ok
+11:02:12:INFO:>>> INVITE sip:Roland@192.168.0.14 SIP/2.0
+11:02:12:INFO:Rolandmobil@192.168.0.14 is calling Roland@192.168.0.14
+11:02:12:INFO:destination Roland@192.168.0.14
+11:02:12:INFO:<<< INVITE sip:Roland@192.168.0.14 SIP/2.0
+11:02:12:INFO:>>> SIP/2.0 100 Trying
+11:02:12:INFO:<<< SIP/2.0 100 Trying
+11:02:12:INFO:>>> SIP/2.0 180 Ringing
+11:02:12:INFO:<<< SIP/2.0 180 Ringing
+11:02:14:INFO:>>> CANCEL sip:Roland@192.168.0.14 SIP/2.0
+11:02:14:INFO:destination Roland@192.168.0.14
+11:02:14:INFO:<<< CANCEL sip:Roland@192.168.0.14 SIP/2.0
+11:02:14:INFO:>>> SIP/2.0 200 Ok
+11:02:14:INFO:<<< SIP/2.0 200 Ok
+11:02:14:INFO:>>> SIP/2.0 487 Request terminated
+11:02:14:INFO:<<< SIP/2.0 487 Request terminated
+11:02:14:INFO:>>> ACK sip:Roland@192.168.0.14 SIP/2.0
+11:02:14:INFO:destination Roland@192.168.0.14
+11:02:14:INFO:<<< ACK sip:Roland@192.168.0.14 SIP/2.0
+15:07:14:INFO:Mon, 28 Feb 2022 15:07:14 
+15:08:20:INFO:Mon, 28 Feb 2022 15:08:20 
+15:08:40:INFO:>>> REGISTER sip:192.168.0.80:5060 SIP/2.0
+15:08:40:INFO:From: Roland@192.168.0.80 - Contact: 192.168.0.80:59742
+15:08:40:INFO:<<< SIP/2.0 200 0K:Confirmed
+15:08:41:INFO:>>> PUBLISH sip:Roland@192.168.0.80:5060 SIP/2.0
+15:08:41:INFO:<<< SIP/2.0 200 0K:Confirmed
+15:10:02:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+15:10:02:INFO:From: Rolandmobil@192.168.0.80 - Contact: 192.168.0.32:34183
+15:10:02:INFO:<<< SIP/2.0 200 0K:Confirmed
+15:10:35:INFO:>>> INVITE sip:192168080@192.168.0.80 SIP/2.0
+15:10:35:INFO:Rolandmobil@192.168.0.80 is calling 192168080@192.168.0.80
+15:10:35:INFO:destination 192168080@192.168.0.80
+15:10:35:INFO:<<< SIP/2.0 480 Temporarily Unavailable
+15:10:35:INFO:>>> ACK sip:192168080@192.168.0.80 SIP/2.0
+15:10:35:INFO:destination 192168080@192.168.0.80
+15:11:04:INFO:>>> INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+15:11:04:INFO:Rolandmobil@192.168.0.80 is calling Roland@192.168.0.80
+15:11:04:INFO:destination Roland@192.168.0.80
+15:11:04:INFO:<<< INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+15:11:05:INFO:>>> SIP/2.0 100 Trying
+15:11:05:INFO:<<< SIP/2.0 100 Trying
+15:11:06:INFO:>>> SIP/2.0 180 Ringing
+15:11:06:INFO:<<< SIP/2.0 180 Ringing
+15:11:12:INFO:>>> SIP/2.0 200 Ok
+15:11:12:INFO:<<< SIP/2.0 200 Ok
+15:11:12:INFO:>>> ACK sip:Roland@192.168.0.80:59742;transport=udp SIP/2.0
+15:11:12:INFO:destination Roland@192.168.0.80
+15:11:12:INFO:<<< ACK sip:Roland@192.168.0.80:59742;transport=udp SIP/2.0
+15:11:12:INFO:Call started
+15:11:24:INFO:>>> BYE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+15:11:24:INFO:Call lasted: 12sec
+
+15:11:24:INFO:destination Rolandmobil@192.168.0.80
+15:11:24:INFO:<<< BYE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+15:11:24:INFO:>>> SIP/2.0 200 Ok
+15:11:24:INFO:<<< SIP/2.0 200 Ok
+16:03:07:INFO:Mon, 28 Feb 2022 16:03:07 
+16:03:11:INFO:>>> REGISTER sip:192.168.0.80:5060 SIP/2.0
+16:03:11:INFO:From: Roland@192.168.0.80 - Contact: 192.168.0.80:58923
+16:03:11:INFO:<<< SIP/2.0 200 0K:Confirmed
+16:03:12:INFO:>>> PUBLISH sip:Roland@192.168.0.80:5060 SIP/2.0
+16:03:12:INFO:<<< SIP/2.0 200 0K:Confirmed
+16:03:24:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+16:03:24:INFO:From: Rolandmobil@192.168.0.80 - Contact: 192.168.0.32:34183
+16:03:24:INFO:<<< SIP/2.0 200 0K:Confirmed
+16:03:24:INFO:>>> REGISTER sip:192.168.0.81 SIP/2.0
+16:03:24:INFO:From: Rolandmobil@192.168.0.81 - Contact: 192.168.0.32:34183
+16:03:24:INFO:<<< SIP/2.0 200 0K:Confirmed
+16:03:26:INFO:>>> REGISTER sip:192.168.0.81 SIP/2.0
+16:03:26:INFO:<<< SIP/2.0 200 0K:Confirmed
+16:03:26:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+16:03:26:INFO:From: Rolandmobil@192.168.0.80 - Contact: 192.168.0.32:34183
+16:03:26:INFO:<<< SIP/2.0 200 0K:Confirmed
+16:03:32:INFO:>>> INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+16:03:32:INFO:Rolandmobil@192.168.0.80 is calling Roland@192.168.0.80
+16:03:32:INFO:destination Roland@192.168.0.80
+16:03:32:INFO:<<< INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+16:03:32:INFO:>>> SIP/2.0 100 Trying
+16:03:32:INFO:<<< SIP/2.0 100 Trying
+16:03:32:INFO:>>> SIP/2.0 180 Ringing
+16:03:32:INFO:<<< SIP/2.0 180 Ringing
+16:03:35:INFO:>>> SIP/2.0 200 Ok
+16:03:35:INFO:<<< SIP/2.0 200 Ok
+16:03:35:INFO:>>> ACK sip:Roland@192.168.0.80:58923;transport=udp SIP/2.0
+16:03:35:INFO:destination Roland@192.168.0.80
+16:03:35:INFO:<<< ACK sip:Roland@192.168.0.80:58923;transport=udp SIP/2.0
+16:03:35:INFO:Call started
+16:03:41:INFO:>>> BYE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+16:03:41:INFO:Call lasted: 6sec
+
+16:03:41:INFO:destination Rolandmobil@192.168.0.80
+16:03:41:INFO:<<< BYE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+16:03:41:INFO:>>> SIP/2.0 200 Ok
+16:03:41:INFO:<<< SIP/2.0 200 Ok
+20:06:20:INFO:Mon, 28 Feb 2022 20:06:20 
+20:06:31:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+20:06:31:INFO:From: Rolandmobil@192.168.0.80 - Contact: 192.168.0.32:34183
+20:06:31:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:06:31:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+20:06:31:INFO:From: Rolandmobil@192.168.0.80 - Contact: 192.168.0.32:34183
+20:06:31:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:06:31:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+20:06:31:INFO:From: Rolandmobil@192.168.0.80 - Contact: 192.168.0.32:34183
+20:06:31:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:06:47:INFO:>>> REGISTER sip:192.168.0.80:5060 SIP/2.0
+20:06:47:INFO:From: Roland@192.168.0.80 - Contact: 192.168.0.80:60752
+20:06:47:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:06:47:INFO:>>> PUBLISH sip:Roland@192.168.0.80:5060 SIP/2.0
+20:06:47:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:07:08:INFO:>>> INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:07:08:INFO:Rolandmobil@192.168.0.80 is calling Roland@192.168.0.80
+20:07:08:INFO:destination Roland@192.168.0.80
+20:07:08:INFO:<<< INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:07:08:INFO:>>> SIP/2.0 100 Trying
+20:07:08:INFO:<<< SIP/2.0 100 Trying
+20:07:08:INFO:>>> SIP/2.0 180 Ringing
+20:07:08:INFO:<<< SIP/2.0 180 Ringing
+20:07:12:INFO:>>> SIP/2.0 200 Ok
+20:07:12:INFO:<<< SIP/2.0 200 Ok
+20:07:12:INFO:>>> ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:07:12:INFO:destination Roland@192.168.0.80
+20:07:12:INFO:<<< ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:07:12:INFO:Call started
+20:07:21:INFO:>>> BYE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:07:21:INFO:Call lasted: 9sec
+
+20:07:21:INFO:destination Rolandmobil@192.168.0.80
+20:07:21:INFO:<<< BYE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:07:21:INFO:>>> SIP/2.0 200 Ok
+20:07:21:INFO:<<< SIP/2.0 200 Ok
+20:08:46:INFO:>>> INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:08:46:INFO:Rolandmobil@192.168.0.80 is calling Roland@192.168.0.80
+20:08:46:INFO:destination Roland@192.168.0.80
+20:08:46:INFO:<<< INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:08:46:INFO:>>> SIP/2.0 100 Trying
+20:08:46:INFO:<<< SIP/2.0 100 Trying
+20:08:46:INFO:>>> SIP/2.0 180 Ringing
+20:08:46:INFO:<<< SIP/2.0 180 Ringing
+20:08:49:INFO:>>> CANCEL sip:Roland@192.168.0.80:5060 SIP/2.0
+20:08:49:INFO:destination Roland@192.168.0.80
+20:08:49:INFO:<<< CANCEL sip:Roland@192.168.0.80:5060 SIP/2.0
+20:08:49:INFO:>>> SIP/2.0 200 Ok
+20:08:49:INFO:<<< SIP/2.0 200 Ok
+20:08:49:INFO:>>> SIP/2.0 487 Request terminated
+20:08:49:INFO:<<< SIP/2.0 487 Request terminated
+20:08:49:INFO:>>> ACK sip:Roland@192.168.0.80:5060 SIP/2.0
+20:08:49:INFO:destination Roland@192.168.0.80
+20:08:49:INFO:<<< ACK sip:Roland@192.168.0.80:5060 SIP/2.0
+20:09:09:INFO:>>> REGISTER sip:192.168.0.80:5060 SIP/2.0
+20:09:09:INFO:From: Roland@192.168.0.80 - Contact: 192.168.0.80:60752
+20:09:09:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:09:21:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+20:09:21:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:09:21:INFO:>>> REGISTER sip:192.168.0.81 SIP/2.0
+20:09:21:INFO:From: Rolandmobil@192.168.0.81 - Contact: 192.168.0.32:34183
+20:09:21:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:09:23:INFO:>>> REGISTER sip:192.168.0.81 SIP/2.0
+20:09:23:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:09:23:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+20:09:23:INFO:From: Rolandmobil@192.168.0.80 - Contact: 192.168.0.32:34183
+20:09:23:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:09:28:INFO:>>> INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:09:28:INFO:Rolandmobil@192.168.0.80 is calling Roland@192.168.0.80
+20:09:28:INFO:destination Roland@192.168.0.80
+20:09:28:INFO:<<< INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:09:28:INFO:>>> SIP/2.0 100 Trying
+20:09:28:INFO:<<< SIP/2.0 100 Trying
+20:09:28:INFO:>>> SIP/2.0 180 Ringing
+20:09:28:INFO:<<< SIP/2.0 180 Ringing
+20:09:31:INFO:>>> SIP/2.0 603 Decline
+20:09:31:INFO:<<< SIP/2.0 603 Decline
+20:09:31:INFO:>>> ACK sip:Roland@192.168.0.80:5060 SIP/2.0
+20:09:31:INFO:destination Roland@192.168.0.80
+20:09:31:INFO:<<< ACK sip:Roland@192.168.0.80:5060 SIP/2.0
+20:11:09:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+20:11:09:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:11:09:INFO:>>> REGISTER sip:192.168.0.81 SIP/2.0
+20:11:09:INFO:From: Rolandmobil@192.168.0.81 - Contact: 192.168.0.32:34183
+20:11:09:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:11:28:INFO:>>> REGISTER sip:192.168.0.81 SIP/2.0
+20:11:28:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:11:28:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+20:11:28:INFO:From: Rolandmobil@192.168.0.80 - Contact: 192.168.0.32:34183
+20:11:28:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:11:34:INFO:>>> REGISTER sip:192.168.0.80:5060 SIP/2.0
+20:11:34:INFO:From: Roland@192.168.0.80 - Contact: 192.168.0.80:60752
+20:11:34:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:11:44:INFO:>>> INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:11:44:INFO:Rolandmobil@192.168.0.80 is calling Roland@192.168.0.80
+20:11:44:INFO:destination Roland@192.168.0.80
+20:11:44:INFO:<<< INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:11:44:INFO:>>> SIP/2.0 100 Trying
+20:11:44:INFO:<<< SIP/2.0 100 Trying
+20:11:44:INFO:>>> SIP/2.0 180 Ringing
+20:11:44:INFO:<<< SIP/2.0 180 Ringing
+20:11:44:INFO:>>> INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:11:44:INFO:Rolandmobil@192.168.0.80 is calling Roland@192.168.0.80
+20:11:44:INFO:destination Roland@192.168.0.80
+20:11:44:INFO:<<< INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:11:44:INFO:>>> SIP/2.0 180 Ringing
+20:11:44:INFO:<<< SIP/2.0 180 Ringing
+20:11:46:INFO:>>> SIP/2.0 200 Ok
+20:11:46:INFO:<<< SIP/2.0 200 Ok
+20:11:46:INFO:>>> ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:11:46:INFO:destination Roland@192.168.0.80
+20:11:46:INFO:<<< ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:11:46:INFO:Call started
+20:11:47:INFO:>>> INVITE sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:11:47:INFO:Rolandmobil@192.168.0.80 is calling Roland@192.168.0.80
+20:11:47:INFO:destination Roland@192.168.0.80
+20:11:47:INFO:<<< INVITE sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:11:47:INFO:>>> SIP/2.0 100 Trying
+20:11:47:INFO:<<< SIP/2.0 100 Trying
+20:11:50:INFO:>>> SIP/2.0 200 Ok
+20:11:50:INFO:<<< SIP/2.0 200 Ok
+20:11:50:INFO:>>> ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:11:50:INFO:destination Roland@192.168.0.80
+20:11:50:INFO:<<< ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:11:50:INFO:Call started
+20:12:02:INFO:>>> BYE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:12:02:INFO:Call lasted: 12sec
+
+20:12:02:INFO:destination Rolandmobil@192.168.0.80
+20:12:02:INFO:<<< BYE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:12:02:INFO:>>> SIP/2.0 200 Ok
+20:12:02:INFO:<<< SIP/2.0 200 Ok
+20:13:48:INFO:>>> INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:13:48:INFO:Rolandmobil@192.168.0.80 is calling Roland@192.168.0.80
+20:13:48:INFO:destination Roland@192.168.0.80
+20:13:48:INFO:<<< INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:13:48:INFO:>>> SIP/2.0 100 Trying
+20:13:48:INFO:<<< SIP/2.0 100 Trying
+20:13:48:INFO:>>> SIP/2.0 180 Ringing
+20:13:48:INFO:<<< SIP/2.0 180 Ringing
+20:13:53:INFO:>>> SIP/2.0 200 Ok
+20:13:53:INFO:<<< SIP/2.0 200 Ok
+20:13:53:INFO:>>> SIP/2.0 200 Ok
+20:13:53:INFO:<<< SIP/2.0 200 Ok
+20:13:54:INFO:>>> ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:13:54:INFO:destination Roland@192.168.0.80
+20:13:54:INFO:<<< ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:13:54:INFO:Call started
+20:13:59:INFO:>>> INVITE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:13:59:INFO:Roland@192.168.0.80 is calling Rolandmobil@192.168.0.80
+20:13:59:INFO:destination Rolandmobil@192.168.0.80
+20:13:59:INFO:<<< INVITE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:13:59:INFO:>>> SIP/2.0 100 Trying
+20:13:59:INFO:<<< SIP/2.0 100 Trying
+20:14:00:INFO:>>> SIP/2.0 200 Ok
+20:14:00:INFO:<<< SIP/2.0 200 Ok
+20:14:00:INFO:>>> ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:14:00:INFO:destination Rolandmobil@192.168.0.80
+20:14:00:INFO:<<< ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:14:00:INFO:Call started
+20:14:12:INFO:>>> BYE sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:14:12:INFO:Call lasted: 12sec
+
+20:14:12:INFO:destination Roland@192.168.0.80
+20:14:12:INFO:<<< BYE sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:14:12:INFO:>>> SIP/2.0 200 Ok
+20:14:12:INFO:<<< SIP/2.0 200 Ok
+20:15:47:INFO:>>> PUBLISH sip:Roland@192.168.0.80:5060 SIP/2.0
+20:15:47:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:15:59:INFO:>>> REGISTER sip:192.168.0.80:5060 SIP/2.0
+20:15:59:INFO:From: FilipMobil@192.168.0.80 - Contact: 192.168.0.18:42013
+20:15:59:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:16:14:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+20:16:14:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:16:14:INFO:>>> REGISTER sip:192.168.0.81 SIP/2.0
+20:16:14:INFO:From: Rolandmobil@192.168.0.81 - Contact: 192.168.0.32:34183
+20:16:14:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:16:16:INFO:>>> REGISTER sip:192.168.0.81 SIP/2.0
+20:16:16:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:16:16:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+20:16:16:INFO:From: Rolandmobil@192.168.0.80 - Contact: 192.168.0.32:34183
+20:16:16:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:16:20:INFO:>>> REGISTER sip:192.168.0.80:5060 SIP/2.0
+20:16:20:INFO:From: Roland@192.168.0.80 - Contact: 192.168.0.80:60752
+20:16:20:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:16:35:INFO:>>> INVITE sip:FilipMobil@192.168.0.80 SIP/2.0
+20:16:35:INFO:Rolandmobil@192.168.0.80 is calling FilipMobil@192.168.0.80
+20:16:35:INFO:destination FilipMobil@192.168.0.80
+20:16:35:INFO:<<< INVITE sip:FilipMobil@192.168.0.80 SIP/2.0
+20:16:35:INFO:>>> SIP/2.0 100 Trying
+20:16:35:INFO:<<< SIP/2.0 100 Trying
+20:16:36:INFO:>>> SIP/2.0 180 Ringing
+20:16:36:INFO:<<< SIP/2.0 180 Ringing
+20:16:38:INFO:>>> SIP/2.0 200 Ok
+20:16:38:INFO:<<< SIP/2.0 200 Ok
+20:16:39:INFO:>>> ACK sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:16:39:INFO:destination FilipMobil@192.168.0.80
+20:16:39:INFO:<<< ACK sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:16:39:INFO:Call started
+20:16:47:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+20:16:47:INFO:From: Rolandmobil@192.168.0.80 - Contact: 192.168.0.32:34183
+20:16:47:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:17:07:INFO:>>> REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:07:INFO:destination FilipMobil@192.168.0.80
+20:17:07:INFO:<<< REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:08:INFO:>>> REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:08:INFO:destination FilipMobil@192.168.0.80
+20:17:08:INFO:<<< REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:09:INFO:>>> REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:09:INFO:destination FilipMobil@192.168.0.80
+20:17:09:INFO:<<< REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:11:INFO:>>> REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:11:INFO:destination FilipMobil@192.168.0.80
+20:17:11:INFO:<<< REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:15:INFO:>>> REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:15:INFO:destination FilipMobil@192.168.0.80
+20:17:15:INFO:<<< REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:19:INFO:>>> REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:19:INFO:destination FilipMobil@192.168.0.80
+20:17:19:INFO:<<< REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:23:INFO:>>> REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:23:INFO:destination FilipMobil@192.168.0.80
+20:17:23:INFO:<<< REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:27:INFO:>>> REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:27:INFO:destination FilipMobil@192.168.0.80
+20:17:27:INFO:<<< REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:30:INFO:>>> SIP/2.0 202 Accepted
+20:17:30:INFO:<<< SIP/2.0 202 Accepted
+20:17:31:INFO:>>> INVITE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:17:31:INFO:FilipMobil@192.168.0.80 is calling Rolandmobil@192.168.0.80
+20:17:31:INFO:destination Rolandmobil@192.168.0.80
+20:17:31:INFO:<<< INVITE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:17:31:INFO:>>> SIP/2.0 100 Trying
+20:17:31:INFO:<<< SIP/2.0 100 Trying
+20:17:31:INFO:>>> SIP/2.0 200 Ok
+20:17:31:INFO:<<< SIP/2.0 200 Ok
+20:17:31:INFO:>>> SIP/2.0 202 Accepted
+20:17:31:INFO:<<< SIP/2.0 202 Accepted
+20:17:31:INFO:>>> SIP/2.0 202 Accepted
+20:17:31:INFO:<<< SIP/2.0 202 Accepted
+20:17:31:INFO:>>> SIP/2.0 202 Accepted
+20:17:31:INFO:<<< SIP/2.0 202 Accepted
+20:17:31:INFO:>>> SIP/2.0 202 Accepted
+20:17:31:INFO:<<< SIP/2.0 202 Accepted
+20:17:31:INFO:>>> ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:17:31:INFO:destination Rolandmobil@192.168.0.80
+20:17:31:INFO:<<< ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:17:31:INFO:Call started
+20:17:31:INFO:>>> NOTIFY sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:17:31:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:17:31:INFO:>>> INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:17:31:INFO:FilipMobil@192.168.0.80 is calling Roland@192.168.0.80
+20:17:31:INFO:destination Roland@192.168.0.80
+20:17:31:INFO:<<< INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:17:31:INFO:>>> SIP/2.0 100 Trying
+20:17:31:INFO:<<< SIP/2.0 100 Trying
+20:17:32:INFO:>>> SIP/2.0 180 Ringing
+20:17:32:INFO:<<< SIP/2.0 180 Ringing
+20:17:35:INFO:>>> SIP/2.0 200 Ok
+20:17:35:INFO:<<< SIP/2.0 200 Ok
+20:17:35:INFO:>>> NOTIFY sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:17:35:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:17:35:INFO:>>> SIP/2.0 200 Ok
+20:17:35:INFO:<<< SIP/2.0 200 Ok
+20:17:35:INFO:>>> ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:17:35:INFO:destination Roland@192.168.0.80
+20:17:35:INFO:<<< ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:17:35:INFO:Call started
+20:17:35:INFO:>>> ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:17:35:INFO:destination Roland@192.168.0.80
+20:17:35:INFO:<<< ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:17:35:INFO:Call started
+20:17:37:INFO:>>> INVITE sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:17:37:INFO:FilipMobil@192.168.0.80 is calling Roland@192.168.0.80
+20:17:37:INFO:destination Roland@192.168.0.80
+20:17:37:INFO:<<< INVITE sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:17:37:INFO:>>> SIP/2.0 100 Trying
+20:17:37:INFO:<<< SIP/2.0 100 Trying
+20:17:37:INFO:>>> SIP/2.0 200 Ok
+20:17:37:INFO:<<< SIP/2.0 200 Ok
+20:17:37:INFO:>>> ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:17:37:INFO:destination Roland@192.168.0.80
+20:17:37:INFO:<<< ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:17:37:INFO:Call started
+20:17:54:INFO:>>> BYE sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:54:INFO:Call lasted: 17sec
+
+20:17:54:INFO:destination FilipMobil@192.168.0.80
+20:17:54:INFO:<<< BYE sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:54:INFO:>>> SIP/2.0 200 Ok
+20:17:54:INFO:<<< SIP/2.0 200 Ok
+20:17:57:INFO:>>> INVITE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:17:57:INFO:FilipMobil@192.168.0.80 is calling Rolandmobil@192.168.0.80
+20:17:57:INFO:destination Rolandmobil@192.168.0.80
+20:17:57:INFO:<<< INVITE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:17:58:INFO:>>> SIP/2.0 100 Trying
+20:17:58:INFO:<<< SIP/2.0 100 Trying
+20:17:58:INFO:>>> SIP/2.0 200 Ok
+20:17:58:INFO:<<< SIP/2.0 200 Ok
+20:17:58:INFO:>>> ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:17:58:INFO:destination Rolandmobil@192.168.0.80
+20:17:58:INFO:<<< ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:17:58:INFO:Call started
+20:17:59:INFO:>>> BYE sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:59:INFO:Call lasted: 1sec
+
+20:17:59:INFO:destination FilipMobil@192.168.0.80
+20:17:59:INFO:<<< BYE sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:17:59:INFO:>>> SIP/2.0 200 Ok
+20:17:59:INFO:<<< SIP/2.0 200 Ok
+20:18:10:INFO:>>> INVITE sip:FilipMobil@192.168.0.80 SIP/2.0
+20:18:10:INFO:Rolandmobil@192.168.0.80 is calling FilipMobil@192.168.0.80
+20:18:10:INFO:destination FilipMobil@192.168.0.80
+20:18:10:INFO:<<< INVITE sip:FilipMobil@192.168.0.80 SIP/2.0
+20:18:10:INFO:>>> SIP/2.0 100 Trying
+20:18:10:INFO:<<< SIP/2.0 100 Trying
+20:18:11:INFO:>>> SIP/2.0 180 Ringing
+20:18:11:INFO:<<< SIP/2.0 180 Ringing
+20:18:12:INFO:>>> SIP/2.0 200 Ok
+20:18:12:INFO:<<< SIP/2.0 200 Ok
+20:18:13:INFO:>>> SIP/2.0 200 Ok
+20:18:13:INFO:<<< SIP/2.0 200 Ok
+20:18:13:INFO:>>> ACK sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:18:13:INFO:destination FilipMobil@192.168.0.80
+20:18:13:INFO:<<< ACK sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:18:13:INFO:Call started
+20:18:13:INFO:>>> ACK sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:18:13:INFO:destination FilipMobil@192.168.0.80
+20:18:13:INFO:<<< ACK sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:18:13:INFO:Call started
+20:18:34:INFO:>>> REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:18:34:INFO:destination FilipMobil@192.168.0.80
+20:18:34:INFO:<<< REFER sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:18:34:INFO:>>> SIP/2.0 202 Accepted
+20:18:34:INFO:<<< SIP/2.0 202 Accepted
+20:18:34:INFO:>>> INVITE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:18:34:INFO:FilipMobil@192.168.0.80 is calling Rolandmobil@192.168.0.80
+20:18:34:INFO:destination Rolandmobil@192.168.0.80
+20:18:34:INFO:<<< INVITE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:18:34:INFO:>>> SIP/2.0 100 Trying
+20:18:34:INFO:<<< SIP/2.0 100 Trying
+20:18:34:INFO:>>> SIP/2.0 200 Ok
+20:18:34:INFO:<<< SIP/2.0 200 Ok
+20:18:34:INFO:>>> ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:18:34:INFO:destination Rolandmobil@192.168.0.80
+20:18:34:INFO:<<< ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:18:34:INFO:Call started
+20:18:34:INFO:>>> INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:18:34:INFO:FilipMobil@192.168.0.80 is calling Roland@192.168.0.80
+20:18:34:INFO:destination Roland@192.168.0.80
+20:18:34:INFO:<<< INVITE sip:Roland@192.168.0.80:5060 SIP/2.0
+20:18:34:INFO:>>> NOTIFY sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:18:34:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:18:34:INFO:>>> SIP/2.0 100 Trying
+20:18:34:INFO:<<< SIP/2.0 100 Trying
+20:18:35:INFO:>>> SIP/2.0 180 Ringing
+20:18:35:INFO:<<< SIP/2.0 180 Ringing
+20:18:39:INFO:>>> SIP/2.0 200 Ok
+20:18:39:INFO:<<< SIP/2.0 200 Ok
+20:18:39:INFO:>>> NOTIFY sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:18:39:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:18:39:INFO:>>> SIP/2.0 200 Ok
+20:18:39:INFO:<<< SIP/2.0 200 Ok
+20:18:39:INFO:>>> ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:39:INFO:destination Roland@192.168.0.80
+20:18:39:INFO:<<< ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:39:INFO:Call started
+20:18:39:INFO:>>> ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:39:INFO:destination Roland@192.168.0.80
+20:18:39:INFO:<<< ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:39:INFO:Call started
+20:18:41:INFO:>>> INVITE sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:41:INFO:FilipMobil@192.168.0.80 is calling Roland@192.168.0.80
+20:18:41:INFO:destination Roland@192.168.0.80
+20:18:41:INFO:<<< INVITE sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:41:INFO:>>> SIP/2.0 100 Trying
+20:18:41:INFO:<<< SIP/2.0 100 Trying
+20:18:41:INFO:>>> SIP/2.0 200 Ok
+20:18:41:INFO:<<< SIP/2.0 200 Ok
+20:18:41:INFO:>>> ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:41:INFO:destination Roland@192.168.0.80
+20:18:41:INFO:<<< ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:41:INFO:Call started
+20:18:55:INFO:>>> REGISTER sip:192.168.0.80:5060 SIP/2.0
+20:18:55:INFO:From: FilipMobil@192.168.0.80 - Contact: 192.168.0.18:42013
+20:18:55:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:18:56:INFO:>>> INVITE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:18:56:INFO:FilipMobil@192.168.0.80 is calling Rolandmobil@192.168.0.80
+20:18:56:INFO:destination Rolandmobil@192.168.0.80
+20:18:56:INFO:<<< INVITE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:18:56:INFO:>>> SIP/2.0 100 Trying
+20:18:56:INFO:<<< SIP/2.0 100 Trying
+20:18:56:INFO:>>> SIP/2.0 200 Ok
+20:18:56:INFO:<<< SIP/2.0 200 Ok
+20:18:56:INFO:>>> ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:18:56:INFO:destination Rolandmobil@192.168.0.80
+20:18:56:INFO:<<< ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:18:56:INFO:Call started
+20:18:56:INFO:>>> INVITE sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:56:INFO:FilipMobil@192.168.0.80 is calling Roland@192.168.0.80
+20:18:56:INFO:destination Roland@192.168.0.80
+20:18:56:INFO:<<< INVITE sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:56:INFO:>>> SIP/2.0 100 Trying
+20:18:56:INFO:<<< SIP/2.0 100 Trying
+20:18:56:INFO:>>> SIP/2.0 200 Ok
+20:18:56:INFO:<<< SIP/2.0 200 Ok
+20:18:57:INFO:>>> ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:57:INFO:destination Roland@192.168.0.80
+20:18:57:INFO:<<< ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:57:INFO:Call started
+20:18:58:INFO:>>> INVITE sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:58:INFO:FilipMobil@192.168.0.80 is calling Roland@192.168.0.80
+20:18:58:INFO:destination Roland@192.168.0.80
+20:18:58:INFO:<<< INVITE sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:58:INFO:>>> SIP/2.0 100 Trying
+20:18:58:INFO:<<< SIP/2.0 100 Trying
+20:18:58:INFO:>>> SIP/2.0 200 Ok
+20:18:58:INFO:<<< SIP/2.0 200 Ok
+20:18:58:INFO:>>> ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:58:INFO:destination Roland@192.168.0.80
+20:18:58:INFO:<<< ACK sip:Roland@192.168.0.80:60752;transport=udp SIP/2.0
+20:18:58:INFO:Call started
+20:19:03:INFO:>>> BYE sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:19:03:INFO:Call lasted: 5sec
+
+20:19:03:INFO:destination FilipMobil@192.168.0.80
+20:19:03:INFO:<<< BYE sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:19:04:INFO:>>> BYE sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:19:04:INFO:Call lasted: 6sec
+
+20:19:04:INFO:destination FilipMobil@192.168.0.80
+20:19:04:INFO:<<< BYE sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:19:04:INFO:>>> SIP/2.0 200 Ok
+20:19:04:INFO:<<< SIP/2.0 200 Ok
+20:19:07:INFO:>>> INVITE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:19:07:INFO:FilipMobil@192.168.0.80 is calling Rolandmobil@192.168.0.80
+20:19:07:INFO:destination Rolandmobil@192.168.0.80
+20:19:07:INFO:<<< INVITE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:19:07:INFO:>>> SIP/2.0 100 Trying
+20:19:07:INFO:<<< SIP/2.0 100 Trying
+20:19:07:INFO:>>> SIP/2.0 200 Ok
+20:19:07:INFO:<<< SIP/2.0 200 Ok
+20:19:08:INFO:>>> ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:19:08:INFO:destination Rolandmobil@192.168.0.80
+20:19:08:INFO:<<< ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:19:08:INFO:Call started
+20:19:11:INFO:>>> BYE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:19:11:INFO:Call lasted: 3sec
+
+20:19:11:INFO:destination Rolandmobil@192.168.0.80
+20:19:11:INFO:<<< BYE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:19:11:INFO:>>> SIP/2.0 200 Ok
+20:19:11:INFO:<<< SIP/2.0 200 Ok
+20:22:22:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+20:22:22:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:22:22:INFO:>>> REGISTER sip:192.168.0.81 SIP/2.0
+20:22:22:INFO:From: Rolandmobil@192.168.0.81 - Contact: 192.168.0.32:34183
+20:22:22:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:22:23:INFO:>>> REGISTER sip:192.168.0.81 SIP/2.0
+20:22:23:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:22:23:INFO:>>> REGISTER sip:192.168.0.80 SIP/2.0
+20:22:23:INFO:From: Rolandmobil@192.168.0.80 - Contact: 192.168.0.32:34183
+20:22:23:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:22:27:INFO:>>> REGISTER sip:192.168.0.80:5060 SIP/2.0
+20:22:27:INFO:From: Roland@192.168.0.80 - Contact: 192.168.0.80:60752
+20:22:27:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:22:58:INFO:>>> INVITE sip:Rolandmobil@192.168.0.80 SIP/2.0
+20:22:58:INFO:Roland@192.168.0.80 is calling Rolandmobil@192.168.0.80
+20:22:58:INFO:destination Rolandmobil@192.168.0.80
+20:22:58:INFO:<<< INVITE sip:Rolandmobil@192.168.0.80 SIP/2.0
+20:22:58:INFO:>>> SIP/2.0 100 Trying
+20:22:58:INFO:<<< SIP/2.0 100 Trying
+20:22:58:INFO:>>> INVITE sip:FilipMobil@192.168.0.80:5060 SIP/2.0
+20:22:58:INFO:Roland@192.168.0.80 is calling FilipMobil@192.168.0.80
+20:22:58:INFO:destination FilipMobil@192.168.0.80
+20:22:58:INFO:<<< INVITE sip:FilipMobil@192.168.0.80:5060 SIP/2.0
+20:22:58:INFO:>>> SIP/2.0 180 Ringing
+20:22:58:INFO:<<< SIP/2.0 180 Ringing
+20:22:58:INFO:>>> SIP/2.0 100 Trying
+20:22:58:INFO:<<< SIP/2.0 100 Trying
+20:22:58:INFO:>>> SIP/2.0 180 Ringing
+20:22:58:INFO:<<< SIP/2.0 180 Ringing
+20:23:00:INFO:>>> SIP/2.0 200 Ok
+20:23:00:INFO:<<< SIP/2.0 200 Ok
+20:23:00:INFO:>>> SUBSCRIBE sip:Roland@192.168.0.80;conf-id=pAIrF;transport=udp SIP/2.0
+20:23:00:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:23:00:INFO:>>> ACK sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:23:00:INFO:destination FilipMobil@192.168.0.80
+20:23:00:INFO:<<< ACK sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:23:00:INFO:Call started
+20:23:00:INFO:>>> SIP/2.0 200 Ok
+20:23:00:INFO:<<< SIP/2.0 200 Ok
+20:23:00:INFO:>>> ACK sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:23:00:INFO:destination FilipMobil@192.168.0.80
+20:23:00:INFO:<<< ACK sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:23:00:INFO:Call started
+20:23:01:INFO:>>> SIP/2.0 200 Ok
+20:23:01:INFO:<<< SIP/2.0 200 Ok
+20:23:01:INFO:>>> ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:23:01:INFO:destination Rolandmobil@192.168.0.80
+20:23:01:INFO:<<< ACK sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:23:01:INFO:Call started
+20:23:01:INFO:>>> SUBSCRIBE sip:Roland@192.168.0.80;conf-id=pAIrF;transport=udp SIP/2.0
+20:23:01:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:23:02:INFO:>>> INVITE sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:23:02:INFO:Roland@192.168.0.80 is calling FilipMobil@192.168.0.80
+20:23:02:INFO:destination FilipMobil@192.168.0.80
+20:23:02:INFO:<<< INVITE sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:23:02:INFO:>>> SIP/2.0 100 Trying
+20:23:02:INFO:<<< SIP/2.0 100 Trying
+20:23:02:INFO:>>> SIP/2.0 200 Ok
+20:23:02:INFO:<<< SIP/2.0 200 Ok
+20:23:02:INFO:>>> ACK sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:23:02:INFO:destination FilipMobil@192.168.0.80
+20:23:02:INFO:<<< ACK sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:23:02:INFO:Call started
+20:23:29:INFO:>>> BYE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:23:29:INFO:Call lasted: 27sec
+
+20:23:29:INFO:destination Rolandmobil@192.168.0.80
+20:23:29:INFO:<<< BYE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:23:29:INFO:>>> SIP/2.0 200 Ok
+20:23:29:INFO:<<< SIP/2.0 200 Ok
+20:23:29:INFO:>>> BYE sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:23:29:INFO:Call lasted: 27sec
+
+20:23:29:INFO:destination FilipMobil@192.168.0.80
+20:23:29:INFO:<<< BYE sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:23:29:INFO:>>> SIP/2.0 200 Ok
+20:23:29:INFO:<<< SIP/2.0 200 Ok
+20:23:29:INFO:>>> SUBSCRIBE sip:FilipMobil@192.168.0.18:42013;transport=udp SIP/2.0
+20:23:29:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:23:29:INFO:>>> SUBSCRIBE sip:Rolandmobil@192.168.0.32:34183;transport=udp SIP/2.0
+20:23:29:INFO:<<< SIP/2.0 200 0K:Confirmed
+20:24:47:INFO:>>> PUBLISH sip:Roland@192.168.0.80:5060 SIP/2.0
+20:24:47:INFO:<<< SIP/2.0 200 0K:Confirmed
